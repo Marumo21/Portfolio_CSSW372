@@ -1,1 +1,5 @@
-<% out.print("<h1>The Date is : " + java.util.Date() + "</h2>"); %>
+<%@ page import="java.util.Date" %>
+<%
+    Date date = new Date();
+    out.print("<h1>The Date is : " + date + "</h1>");
+%>
